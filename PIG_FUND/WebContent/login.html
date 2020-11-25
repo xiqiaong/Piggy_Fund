@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>小猪基金</title>
+<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+<script src="bootstrap-4.4.1-dist/jquery-3.0.0.slim.min.js"></script>
+<script src="bootstrap-4.4.1-dist/popper.min.js"></script>
+<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+	height: 100%;
+}
+
+body {
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+</style>
+</head>
+<body>
+	<!-- 导航栏 -->
+	<nav class="site-header sticky-top py-1 fixed-top"
+		style="background-color: #2E2E2E">
+		<div
+			class="container d-flex flex-column flex-md-row justify-content-between">
+
+			<a href="#" class="navbar-brand w3-logo"><span class="br"><span
+					class="big">P</span>IGGY </span><span class="bb"><span class="big">F</span>UND</span></a>
+			<a class="py-2 d-none d-md-inline-block" href="index.html">主页</a> <a
+				class="py-2 d-none d-md-inline-block" href="#">登录</a> <a
+				class="py-2 d-none d-md-inline-block" href="reg.html">注册</a> <a
+				class="py-2 d-none d-md-inline-block" href="#">服务</a> <a
+				class="py-2 d-none d-md-inline-block" href="#">关于</a>
+		</div>
+	</nav>
+	<form class="form-signin text-center" style="padding-top: 80px">
+		<img class="mb-4" src="images/pig.jpg" alt="" width="120" height="120">
+		<h1 class="h3 mb-3 font-weight-normal">登录</h1>
+		<div class="form-group row">
+			<label for="inputusername3" class="col-sm-3 col-form-label">用户名</label>
+			<div class="col-sm-8">
+				<input type="username" name="username" class="form-control"
+					id="inputusername3">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword3" class="col-sm-3 col-form-label">密码</label>
+			<div class="col-sm-8">
+				<input type="password" name="password" class="form-control"
+					id="inputPassword3" placeholder="">
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<div class="col-sm">
+				<button type="submit" class="btn btn-primary">登录</button>
+				<a class="btn btn-primary" href="reg.html" role="button">注册</a>
+			</div>
+
+		</div>
+		<p class="mt-5 mb-3 text-muted">&copy; 二维数组 2020</p>
+	</form>
+</body>
+</html>
